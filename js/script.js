@@ -12,6 +12,10 @@ createApp({
     generateEmails() {
         const apiLink = 'https://flynn.boolean.careers/exercises/api/random/mail';
 
+        for (let i = 0; i < 10; i++){
+            
+        }
+
     }
   }
 }).mount('#app')
