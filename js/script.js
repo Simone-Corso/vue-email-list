@@ -3,7 +3,12 @@ import { createApp } from 'vue'
 createApp({
   data() {
     return {
-      count: 0
+      //inseriamo un array per random di 10 email
+
+      emails: []
     }
+  },
+  methods: {
+    
   }
 }).mount('#app')
