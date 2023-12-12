@@ -21,7 +21,7 @@ createApp({
             for (let i = 0; i < 10; i++) {
                 axios.get(apiLink)
                     .then(response => {
-                        this.emails.push(response.data);
+                        this.emails.push(response.data.response);
                     });
             }
         }
