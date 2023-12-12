@@ -10,6 +10,10 @@ createApp({
             emails: []
         };
     },
+    created() {
+        console.log('emails'); 
+        this.generateEmails();
+    },
     methods: {
         generateEmails() {
             const apiLink = 'https://flynn.boolean.careers/exercises/api/random/mail';
